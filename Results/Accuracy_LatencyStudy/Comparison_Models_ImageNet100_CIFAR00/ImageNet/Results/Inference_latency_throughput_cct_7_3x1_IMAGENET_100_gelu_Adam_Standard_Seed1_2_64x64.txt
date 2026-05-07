@@ -1,0 +1,10 @@
+=========== Inference Latency / Throughput ===========
+Model: cct_7_3x1
+Dataset: IMAGENET_100
+Input size: 64x64
+Latency batch size: 1
+Throughput batch size: 128
+Warmup iterations: 10
+Benchmark iterations: 40
+⚡Latency (bs=1): 12.720 ms / forward pass
+⚡Throughput (bs=128): 529.40 images/sec

@@ -1,0 +1,110 @@
+
+==============================================================
+FINAL IMAGENET-100 COMPARISON REPORT: Lite-Net VS. LiteFA-Net 
+==============================================================
+
+
+🎯--- Accuracy ---
+🎯--- Accuracy ---
+
+Best Test Accuracy:
+Lite-Net:     79.24%
+LiteFA-Net:   81.40%
+Gain:         +2.16%
+
+Last Test Accuracy:
+Lite-Net:     79.12%
+LiteFA-Net:   81.06%
+Gain:         +1.94%
+
+
+📉--- Test Loss ---
+📉--- Test Loss ---
+
+Lowest Test Loss:
+Lite-Net:     0.864
+LiteFA-Net:   0.787
+Diference Δ:   -0.077
+Percent Δ:    -8.91%
+
+Last Test Loss:
+Lite-Net:     0.870
+LiteFA-Net:   0.794
+Diference Δ:   -0.076
+Percent Δ:    -8.74%
+
+
+
+⚙️--- Complexity ---
+⚙️--- Complexity ---
+
+Parameters:
+Lite-Net:     4.047 M
+LiteFA-Net:   4.161 M
+Diference Δ:   +0.114 M
+Percent Δ:    +2.82%
+
+MACs:
+Lite-Net:     2.255 GMACs
+LiteFA-Net:   2.421 GMACs
+Diference Δ:   +0.166 GMACs
+Percent Δ:    +7.36%
+
+==============================================================
+==============================================================
+
+
+
+==============================================================
+FINAL CIFAR-100 COMPARISON REPORT: Lite-Net VS. LiteFA-Net
+==============================================================
+
+🎯--- Accuracy ---
+🎯--- Accuracy ---
+
+Best Test Accuracy:
+Lite-Net:     80.56%
+LiteFA-Net:   82.67%
+Gain:         +2.11%
+
+Last Test Accuracy:
+Lite-Net:     80.06%
+LiteFA-Net:   81.85%
+Gain:         +1.79%
+
+
+📉--- Test Loss ---
+📉--- Test Loss ---
+
+Lowest Test Loss:
+Lite-Net:     0.787
+LiteFA-Net:   0.735
+Diference Δ:   -0.052
+Percent Δ:    -6.61%
+
+Last Test Loss:
+Lite-Net:     0.837
+LiteFA-Net:   0.791
+Diference Δ:   -0.046
+Percent Δ:    -5.50%
+
+
+⚙️--- Complexity ---
+⚙️--- Complexity ---
+
+Parameters:
+Lite-Net:     4.047 M
+LiteFA-Net:   4.161 M
+Diference Δ:   +0.114 M
+Percent Δ:    +2.82%
+
+MACs:
+Lite-Net:     0.564 GMACs
+LiteFA-Net:   0.606 GMACs
+Diference Δ:   +0.042 GMACs
+Percent Δ:    +7.45%
+
+==============================================================
+
+
+

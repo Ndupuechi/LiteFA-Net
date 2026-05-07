@@ -1,0 +1,10 @@
+=========== Inference Latency / Throughput ===========
+Model: ConvNeXtV2-Base
+Dataset: IMAGENET_100
+Input size: 64x64
+Latency batch size: 1
+Throughput batch size: 128
+Warmup iterations: 10
+Benchmark iterations: 40
+⚡Latency (bs=1): 14.564 ms / forward pass
+⚡Throughput (bs=128): 4590.46 images/sec

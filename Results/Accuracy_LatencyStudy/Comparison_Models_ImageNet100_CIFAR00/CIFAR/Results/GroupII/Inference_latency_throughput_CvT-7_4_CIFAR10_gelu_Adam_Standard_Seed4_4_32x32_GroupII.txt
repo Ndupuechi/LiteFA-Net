@@ -1,0 +1,10 @@
+=========== Inference Latency / Throughput ===========
+Model: CvT-7_4
+Dataset: CIFAR10
+Input size: 32x32
+Latency batch size: 1
+Throughput batch size: 128
+Warmup iterations: 10
+Benchmark iterations: 40
+⚡Latency (bs=1): 4.251 ms / forward pass
+⚡Throughput (bs=128): 27899.54 images/sec
