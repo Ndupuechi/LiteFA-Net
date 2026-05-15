@@ -12,7 +12,7 @@ LiteFA-Net is a lightweight CNN that integrates frequency-adaptive conditioning 
 ## Architecture
 
 <p align="center">
-  <img src="Architecture/Figures/Lite_FA_Net.svg" width="700"/>
+  <img src="1-Architecture/1-Figures/Lite_FA_Net.svg" width="700"/>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@ LiteFA-Net is a lightweight CNN that integrates frequency-adaptive conditioning 
 ## Modules
 
 <p align="center">
-  <img src="Architecture/Figures/Lite_FA_Net_Modules.svg" width="700"/>
+  <img src="1-Architecture/1-Figures/Lite_FA_Net_Modules.svg" width="700"/>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ LiteFA-Net is a lightweight CNN that integrates frequency-adaptive conditioning 
 ## Spatial Backbone (Lite-Net)
 
 <p align="center">
-  <img src="Architecture/Figures/Lite_Net.svg" width="700"/>
+  <img src="1-Architecture/1-Figures/Lite_Net.svg" width="700"/>
 </p>
 
 <p align="center">
@@ -47,6 +47,6 @@ LiteFA-Net is a lightweight CNN that integrates frequency-adaptive conditioning 
 
 ## 📄 Full Figures (PDF)
 
-- [LiteFA-Net Architecture](Architecture/Figures/Lite_FA_Net.pdf)
-- [LiteFA-Net Modules](Architecture/Figures/Lite_FA_Net_Modules.pdf)
-- [Lite-Net Architecture](Architecture/Figures/Lite_Net.pdf)
+- [LiteFA-Net Architecture](1-Architecture/1-Figures/Lite_FA_Net.pdf)
+- [LiteFA-Net Modules](1-Architecture/1-Figures/Lite_FA_Net_Modules.pdf)
+- [Lite-Net Architecture](1-Architecture/1-Figures/Lite_Net.pdf)
