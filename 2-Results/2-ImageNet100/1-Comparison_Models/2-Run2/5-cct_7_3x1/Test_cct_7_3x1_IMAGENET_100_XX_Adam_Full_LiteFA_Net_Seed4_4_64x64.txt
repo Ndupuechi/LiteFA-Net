@@ -1,0 +1,112 @@
+Epoch 0 | Test Loss: 4.540 | Test Acc: 3.320%
+Epoch 1 | Test Loss: 3.471 | Test Acc: 18.480%
+Epoch 2 | Test Loss: 2.947 | Test Acc: 29.080%
+Epoch 3 | Test Loss: 2.756 | Test Acc: 31.900%
+Epoch 4 | Test Loss: 2.633 | Test Acc: 34.140%
+Epoch 5 | Test Loss: 2.471 | Test Acc: 38.040%
+Epoch 6 | Test Loss: 2.321 | Test Acc: 40.300%
+Epoch 7 | Test Loss: 2.175 | Test Acc: 44.380%
+Epoch 8 | Test Loss: 2.045 | Test Acc: 47.660%
+Epoch 9 | Test Loss: 1.925 | Test Acc: 50.760%
+Epoch 10 | Test Loss: 1.879 | Test Acc: 51.440%
+Epoch 11 | Test Loss: 1.778 | Test Acc: 54.520%
+Epoch 12 | Test Loss: 1.782 | Test Acc: 54.180%
+Epoch 13 | Test Loss: 1.670 | Test Acc: 56.640%
+Epoch 14 | Test Loss: 1.642 | Test Acc: 58.480%
+Epoch 15 | Test Loss: 1.648 | Test Acc: 56.920%
+Epoch 16 | Test Loss: 1.567 | Test Acc: 58.480%
+Epoch 17 | Test Loss: 1.567 | Test Acc: 59.020%
+Epoch 18 | Test Loss: 1.578 | Test Acc: 59.080%
+Epoch 19 | Test Loss: 1.556 | Test Acc: 59.300%
+Epoch 20 | Test Loss: 1.512 | Test Acc: 59.680%
+Epoch 21 | Test Loss: 1.444 | Test Acc: 62.660%
+Epoch 22 | Test Loss: 1.467 | Test Acc: 61.580%
+Epoch 23 | Test Loss: 1.436 | Test Acc: 62.700%
+Epoch 24 | Test Loss: 1.394 | Test Acc: 63.920%
+Epoch 25 | Test Loss: 1.418 | Test Acc: 62.080%
+Epoch 26 | Test Loss: 1.349 | Test Acc: 65.380%
+Epoch 27 | Test Loss: 1.371 | Test Acc: 64.440%
+Epoch 28 | Test Loss: 1.336 | Test Acc: 64.780%
+Epoch 29 | Test Loss: 1.340 | Test Acc: 64.160%
+Epoch 30 | Test Loss: 1.318 | Test Acc: 65.300%
+Epoch 31 | Test Loss: 1.310 | Test Acc: 66.180%
+Epoch 32 | Test Loss: 1.275 | Test Acc: 66.540%
+Epoch 33 | Test Loss: 1.297 | Test Acc: 66.200%
+Epoch 34 | Test Loss: 1.252 | Test Acc: 67.140%
+Epoch 35 | Test Loss: 1.239 | Test Acc: 67.480%
+Epoch 36 | Test Loss: 1.279 | Test Acc: 66.680%
+Epoch 37 | Test Loss: 1.198 | Test Acc: 68.980%
+Epoch 38 | Test Loss: 1.197 | Test Acc: 68.420%
+Epoch 39 | Test Loss: 1.224 | Test Acc: 67.780%
+Epoch 40 | Test Loss: 1.178 | Test Acc: 69.380%
+Epoch 41 | Test Loss: 1.172 | Test Acc: 69.480%
+Epoch 42 | Test Loss: 1.181 | Test Acc: 69.280%
+Epoch 43 | Test Loss: 1.153 | Test Acc: 70.220%
+Epoch 44 | Test Loss: 1.151 | Test Acc: 70.220%
+Epoch 45 | Test Loss: 1.112 | Test Acc: 70.740%
+Epoch 46 | Test Loss: 1.141 | Test Acc: 69.800%
+Epoch 47 | Test Loss: 1.103 | Test Acc: 71.520%
+Epoch 48 | Test Loss: 1.096 | Test Acc: 71.400%
+Epoch 49 | Test Loss: 1.067 | Test Acc: 72.380%
+Epoch 50 | Test Loss: 1.099 | Test Acc: 71.740%
+Epoch 51 | Test Loss: 1.076 | Test Acc: 72.460%
+Epoch 52 | Test Loss: 1.053 | Test Acc: 72.500%
+Epoch 53 | Test Loss: 1.041 | Test Acc: 72.840%
+Epoch 54 | Test Loss: 1.029 | Test Acc: 73.100%
+Epoch 55 | Test Loss: 1.029 | Test Acc: 72.980%
+Epoch 56 | Test Loss: 1.007 | Test Acc: 74.000%
+Epoch 57 | Test Loss: 1.043 | Test Acc: 72.860%
+Epoch 58 | Test Loss: 1.013 | Test Acc: 74.260%
+Epoch 59 | Test Loss: 0.998 | Test Acc: 74.100%
+Epoch 60 | Test Loss: 0.989 | Test Acc: 74.360%
+Epoch 61 | Test Loss: 0.988 | Test Acc: 74.740%
+Epoch 62 | Test Loss: 0.988 | Test Acc: 74.560%
+Epoch 63 | Test Loss: 0.943 | Test Acc: 75.780%
+Epoch 64 | Test Loss: 0.959 | Test Acc: 75.240%
+Epoch 65 | Test Loss: 0.931 | Test Acc: 75.860%
+Epoch 66 | Test Loss: 0.940 | Test Acc: 75.420%
+Epoch 67 | Test Loss: 0.929 | Test Acc: 75.880%
+Epoch 68 | Test Loss: 0.933 | Test Acc: 75.540%
+Epoch 69 | Test Loss: 0.915 | Test Acc: 76.480%
+Epoch 70 | Test Loss: 0.898 | Test Acc: 76.360%
+
+------- INITIALIZATION OF RESUME FROM CHECKPOINT -------
+🔧 Saved Epoch: 69  |  ⏭️ Resume Start Epoch: 70
+🏆 Best Accuracy At Save Time (Epoch 69): 76.480%
+📉 LR At Saved Epoch (69): 0.000082  |  📈 LR At Resume Epoch (70): 0.000082
+------------------- RESUME AT EPOCH 70 ------------------
+Epoch 70 | Test Loss: 0.933 | Test Acc: 76.200%
+Epoch 71 | Test Loss: 0.919 | Test Acc: 76.400%
+Epoch 72 | Test Loss: 0.889 | Test Acc: 76.920%
+Epoch 73 | Test Loss: 0.895 | Test Acc: 77.000%
+Epoch 74 | Test Loss: 0.901 | Test Acc: 76.300%
+Epoch 75 | Test Loss: 0.883 | Test Acc: 77.460%
+Epoch 76 | Test Loss: 0.883 | Test Acc: 77.300%
+Epoch 77 | Test Loss: 0.885 | Test Acc: 77.540%
+Epoch 78 | Test Loss: 0.868 | Test Acc: 77.720%
+Epoch 79 | Test Loss: 0.860 | Test Acc: 77.940%
+Epoch 80 | Test Loss: 0.857 | Test Acc: 77.860%
+Epoch 81 | Test Loss: 0.846 | Test Acc: 78.160%
+Epoch 82 | Test Loss: 0.858 | Test Acc: 77.620%
+Epoch 83 | Test Loss: 0.849 | Test Acc: 78.060%
+Epoch 84 | Test Loss: 0.852 | Test Acc: 78.220%
+Epoch 85 | Test Loss: 0.850 | Test Acc: 78.180%
+Epoch 86 | Test Loss: 0.847 | Test Acc: 78.300%
+Epoch 87 | Test Loss: 0.841 | Test Acc: 78.560%
+Epoch 88 | Test Loss: 0.835 | Test Acc: 78.460%
+Epoch 89 | Test Loss: 0.837 | Test Acc: 78.800%
+Epoch 90 | Test Loss: 0.836 | Test Acc: 78.600%
+Epoch 91 | Test Loss: 0.836 | Test Acc: 78.640%
+Epoch 92 | Test Loss: 0.836 | Test Acc: 78.640%
+Epoch 93 | Test Loss: 0.833 | Test Acc: 78.720%
+Epoch 94 | Test Loss: 0.834 | Test Acc: 78.680%
+Epoch 95 | Test Loss: 0.836 | Test Acc: 78.780%
+Epoch 96 | Test Loss: 0.834 | Test Acc: 78.720%
+Epoch 97 | Test Loss: 0.834 | Test Acc: 78.800%
+Epoch 98 | Test Loss: 0.835 | Test Acc: 78.720%
+Epoch 99 | Test Loss: 0.834 | Test Acc: 78.560%
+
+🏆 Best Test Accuracy: 78.800%
+
+
+🏗️ cct_7_3x1 (from scratch, IMAGENET_100 @ 64x64): ⚙️ MACs=3.8 GMac | 📦 Params=3.98 M | 📦 RawParams=3,979,877

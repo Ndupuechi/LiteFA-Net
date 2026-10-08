@@ -1,0 +1,60 @@
+================================================================================================
+📊🏷️1. ============= cct_7_3x1 Model Complexity (MACs & Parameters) ===========================
+================================================================================================
+🏗️ cct_7_3x1 (from scratch, IMAGENET_100 @ 64x64) | args.num_classes = 100
+⚙️ MACs: 7.56 GMac
+📦 Parameters: 3.98 M
+
+==============================================================================================
+📐🏷️2. ============= cct_7_3x1 Architecture ================================================
+================================================================================================
+CCT(
+  (tokenizer): Tokenizer(
+    (conv_layers): Sequential(
+      (0): Sequential(
+        (0): Conv2d(3, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (1): ReLU()
+        (2): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      )
+    )
+    (flattener): Flatten(start_dim=2, end_dim=3)
+  )
+  (classifier): TransformerClassifier(
+    (attention_pool): Linear(in_features=256, out_features=1, bias=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+    (blocks): ModuleList(
+      (0): TransformerEncoderLayer(
+        (pre_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (self_attn): Attention(
+          (qkv): Linear(in_features=256, out_features=768, bias=False)
+          (attn_drop): Dropout(p=0.1, inplace=False)
+          (proj): Linear(in_features=256, out_features=256, bias=True)
+          (proj_drop): Dropout(p=0.0, inplace=False)
+        )
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path): Identity()
+      )
+      (1-6): 6 x TransformerEncoderLayer(
+        (pre_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (self_attn): Attention(
+          (qkv): Linear(in_features=256, out_features=768, bias=False)
+          (attn_drop): Dropout(p=0.1, inplace=False)
+          (proj): Linear(in_features=256, out_features=256, bias=True)
+          (proj_drop): Dropout(p=0.0, inplace=False)
+        )
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (dropout1): Dropout(p=0.0, inplace=False)
+        (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (dropout2): Dropout(p=0.0, inplace=False)
+        (drop_path): DropPath()
+      )
+    )
+    (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (fc): Linear(in_features=256, out_features=100, bias=True)
+  )
+)

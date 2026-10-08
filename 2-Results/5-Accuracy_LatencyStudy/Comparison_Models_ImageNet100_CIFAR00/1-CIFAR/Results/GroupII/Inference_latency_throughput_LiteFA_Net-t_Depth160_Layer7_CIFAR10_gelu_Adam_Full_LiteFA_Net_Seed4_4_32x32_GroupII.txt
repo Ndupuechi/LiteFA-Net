@@ -1,0 +1,10 @@
+=========== Inference Latency / Throughput ===========
+Model: LiteFA_Net-t
+Dataset: CIFAR10
+Input size: 32x32
+Latency batch size: 1
+Throughput batch size: 128
+Warmup iterations: 10
+Benchmark iterations: 40
+⚡Latency (bs=1): 5.193 ms / forward pass
+⚡Throughput (bs=128): 11232.96 images/sec
